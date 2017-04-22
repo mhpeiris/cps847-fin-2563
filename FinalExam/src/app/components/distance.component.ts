@@ -6,9 +6,11 @@ import { Component, AfterViewInit } from '@angular/core';
      <h1>The Distance between Toronto and Mantreal is {{x}}. It will take {{y}} to get there.</h1>
    `,
  })
- 
+
  export class DisComponent  {
-	 
+	 x = '';
+	y = '';
+	/* 
 	 getWeather(){
 		x = '20';
 		document.getElementById("dist").innerHTML = "Hello Angular";
@@ -39,6 +41,7 @@ import { Component, AfterViewInit } from '@angular/core';
 	  }
 	};
 	xhr.send();
-	};
+	}
+	*/
  }
  
